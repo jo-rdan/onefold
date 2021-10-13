@@ -229,7 +229,7 @@ p {
   height: 100%;
   border-style: solid;
   /* Spinner Color */
-  border-color: #e48811 #e48811 #e9ecef;
+  border-color: #0067f4 #0067f4 #e9ecef;
   border-radius: 50%;
   border-width: 6px;
 }
@@ -514,7 +514,7 @@ p {
   padding: 0 32px;
   font-size: 16px;
   line-height: 46px;
-  color: #e48811;
+  color: #0067f4;
   cursor: pointer;
   z-index: 5;
   -webkit-transition: all 0.4s ease-out 0s;
@@ -3060,7 +3060,7 @@ p {
 .navbar-area .navbar .navbar-btn li a.solid {
   background-color: #fff;
   border-color: #fff;
-  color: #e48811;
+  color: #0067f4;
 }
 .navbar-area .navbar .navbar-btn li a.solid:hover {
   background-color: transparent;
@@ -3109,10 +3109,10 @@ p {
        10.SLIDER css 
 ===========================*/
 .carousel-item {
-  background-color: #e48811;
+  background-color: #0067f4;
   position: relative;
 }
-/* .carousel-item::before {
+.carousel-item::before {
   position: absolute;
   content: "";
   width: 33%;
@@ -3136,7 +3136,7 @@ p {
   -ms-transform: skewX(20deg);
   -o-transform: skewX(20deg);
   transform: skewX(20deg);
-} */
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .carousel-item::before {
     width: 40%;
